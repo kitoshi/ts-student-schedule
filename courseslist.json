@@ -1,0 +1,78 @@
+{
+    "#comment": "",
+    "html": {
+        "head": {
+            "meta": [
+                {
+                    "@charset": "utf-8"
+                },
+                {
+                    "@http-equiv": "X-UA-Compatible",
+                    "@content": "IE=edge"
+                },
+                {
+                    "@name": "viewport",
+                    "@content": "width=device-width, initial-scale=1"
+                }
+            ],
+            "title": "Page Title"
+        },
+        "body": {
+            "h1": "Schedule",
+            "ul": {
+                "@class": "list",
+                "li": [
+                    {
+                        "name": "Developing Web",
+                        "number": "2520",
+                        "description": "Typescript Fun",
+                        "credits": "4",
+                        "pre-requisites": "1550"
+                    },
+                    {
+                        "name": "Business Systems",
+                        "number": "2831",
+                        "description": "System Analysis",
+                        "credits": "4",
+                        "pre-requisites": "1831"
+                    },
+                    {
+                        "name": "Advanced Python",
+                        "number": "2515",
+                        "description": "Python with flask and django",
+                        "credits": "4",
+                        "pre-requisites": "1515"
+                    },
+                    {
+                        "name": "Principles of Networking",
+                        "number": "2620",
+                        "description": "LAN WAN MAN PAN",
+                        "credits": "4",
+                        "pre-requisites": "1620"
+                    },
+                    {
+                        "name": "Statistics for IT",
+                        "number": "1350",
+                        "description": "Statistics with R",
+                        "credits": "4",
+                        "pre-requisites": "1250"
+                    },
+                    {
+                        "name": "Business Communications",
+                        "number": "2216",
+                        "description": "Talk to businesses professionally",
+                        "credits": "4",
+                        "pre-requisites": "1116"
+                    },
+                    {
+                        "name": "Linux Systems Admin",
+                        "number": "2420",
+                        "description": "Virtual machines and system admin",
+                        "credits": "4",
+                        "pre-requisites": "1420"
+                    }
+                ]
+            }
+        }
+    }
+}
