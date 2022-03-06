@@ -50,7 +50,6 @@ function fetchCourses() {
                     return [4 /*yield*/, response.json()];
                 case 2:
                     courses = _a.sent();
-                    console.log(courses.classes);
                     CourseAdd(courses);
                     return [2 /*return*/];
             }

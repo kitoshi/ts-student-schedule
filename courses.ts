@@ -22,7 +22,6 @@ function CourseAdd(obj: Courses) {
 async function fetchCourses() {
   const response = await fetch('http://localhost:8081/courselist')
   const courses = await response.json()
-  console.log(courses.classes)
   CourseAdd(courses)
 }
 
